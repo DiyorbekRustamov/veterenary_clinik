@@ -790,6 +790,152 @@ a {
 .feedback-form__btn:active{
   opacity: .6;
 }
-
 /* FEEDBACK END */
 /* MAIN END */
+
+/* FOOTER START */
+.site-footer{
+  padding-top: 61px;
+  padding-bottom: 23px;
+  border: 1px solid #EBEBEB;
+  background-color: #F3F3F3;
+  font-family: var(--fontFamily);
+}
+
+.site-footer__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1.8fr 2fr;
+  margin-bottom: 28px;
+}
+
+.site-footer__all-link{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.site-footer__linkes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer__item{
+  margin-bottom: 14px;
+}
+
+.site-footer__link{
+  color:#333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  transition: .5;
+}
+
+.site-footer__link:hover{
+  color: #FFBD54;
+  opacity: .8;
+}
+
+.site-footer__link:active{
+  opacity: .6;
+}
+
+
+.site-footer__linkes-time{
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  color:#333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  transition: .7;
+  cursor: pointer;
+}
+
+.site-footer__linkes-time::before{
+  position: absolute;
+  top: 4px;
+  left: -20px;
+  content: url('../icons/schedule.svg');
+}
+
+.site-footer__linkes-time:hover{
+  color: #FFBD54;
+  opacity: .8;
+}
+
+.site-footer__linkes-time:active{
+  opacity: .6;
+}
+
+
+.site-footer__adress{
+  position: relative;
+}
+
+.site-footer__adress-link{
+  padding-left: 30px;
+  color:#333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.site-footer__adress-link:hover{
+  color: #FFBD54;
+  opacity: .8;
+}
+
+.site-footer__adress-link:active{
+  opacity: .6;
+}
+
+
+
+.site-footer__adress::before{
+  position: absolute;
+  content: url('../icons/Vector.svg');
+}
+
+
+.site-footer__contact{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.site-footer__content-link{
+  margin-bottom: 4px;
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.site-footer__content:hover{
+  color: #FFBD54;
+  opacity: .8;
+}
+
+.site-footer__content:active{
+  opacity: .6;
+}
+
+.site-footer__contact::before{
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  content: url('../icons/phone-icon-svg.svg');
+}
+
+.site-footer__reserved{
+  text-align: right;
+  color: #5C5C5C;
+  font-size: 14px;       
+}
+/* FOOTER END */
